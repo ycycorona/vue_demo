@@ -31,9 +31,6 @@
         <div class="display-row">
             <span>现在一共有水果：{{sumFruitNumber}}</span>
         </div>
-<!--        <div class="display-row">
-            <span>现在一共有梨和苹果：{{sumAppleAndPear}}</span>
-        </div>-->
     </div>
 </template>
 
@@ -70,14 +67,6 @@
                 });
                 return sumNumber;
             },
-            /**
-             * @desc 计算前两种水果的总和
-             */
-/*            sumAppleAndPear() {
-                let sumNumber = 0;
-                sumNumber += this.fruitList[this.fruitMap['apple']].number + this.fruitList[this.fruitMap['pear']].number;
-                return sumNumber;
-            }*/
         },
         methods: {
             /**
